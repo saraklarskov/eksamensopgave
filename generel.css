@@ -1,0 +1,111 @@
+body {
+    margin: 20px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: "Bodoni Moda", serif;
+    color: #101c60;
+  }
+  
+  p,
+  a,
+  li {
+    font-family: "Poppins", sans-serif;
+    color: #101c60;
+    line-height: 1.8rem;
+  }
+  
+  body {
+    background-color: #ffe8eb;
+    background-image: url(billeder/1x/pro.webp);
+    background-position-x: -432px;
+    background-position-y: -114px;
+    background-size: 200%;
+    background-repeat: no-repeat;
+  }
+  
+  .nav-menu {
+    gap: 50px;
+    width: 100%;
+    margin-top: -64px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 240px;
+  }
+  
+  .logo {
+    width: 140px;
+    margin-top: -6px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .foot {
+    margin-left: 350px;
+    margin-top: 70px;
+  }
+  
+  .te_1,
+  .ux_grid,
+  .ani_grid,
+  .gr_1 {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .learn,
+  .ux_learn,
+  .ani_learn,
+  .hvad {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffe8eb;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(153, 73, 73, 0.6);
+    margin-left: 12px;
+  }
+  
+  @media (min-width: 800px) {
+    .nav-menu {
+      gap: 50px;
+      width: 100%;
+      margin-top: -64px;
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      margin-left: 1137px;
+    }
+  
+    h1 {
+      font-size: 70px;
+    }
+  
+    h2 {
+      font-size: 30px;
+    }
+  
+    a {
+      font-size: 17px;
+    }
+  
+    .learn,
+    .ux_learn,
+    .ani_learn,
+    .hvad {
+      width: 500px;
+    }
+  
+    p {
+      line-height: 2rem;
+    }
+  
+    .foot {
+      margin-left: 1264px;
+    }
+  }
+  
