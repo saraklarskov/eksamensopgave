@@ -1,0 +1,27 @@
+.mig_selv_billede {
+    width: 80%;
+  }
+  
+  .om_mig_grid p,
+  .anset,
+  .uddannelse,
+  .mastiff {
+    width: 400px;
+    padding: 10px;
+    background-color: #ffe8eb;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(224, 114, 114, 0.6);
+    margin: 20px;
+    background-size: 200%;
+    background-image: url(billeder/1x/pro.webp);
+    background-repeat: no-repeat;
+    background-position: -201px 144px;
+  }
+  
+  .om_mig_grid {
+    background-image: url(billeder/1x/art_5.webp);
+    background-position-x: -80px;
+    background-position-y: -62px;
+    background-size: 200%;
+    background-repeat: no-repeat;
+  }
