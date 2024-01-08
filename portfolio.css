@@ -1,0 +1,45 @@
+.temaer {
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  .text_box2,
+  .text_box3,
+  .text_box4,
+  .text_box5 {
+    padding: 5px; /* Adjust padding as needed */
+    font-size: 12px;
+    background-color: #ffe8eb;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    width: 140px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    box-shadow: 0 0 20px rgba(224, 114, 114, 0.6);
+    border-color: #101c60;
+  }
+  
+  .text_box2:hover,
+  .text_box3:hover,
+  .text_box4:hover,
+  .text_box5:hover {
+    transform: scale(1.2); /* Increase the scale factor for a larger size */
+    background-color: #ffe8eb;
+    box-shadow: 0 0 40px #d78590;
+    border: none;
+  }
+  
+  @media (min-width: 800px) {
+    .text_box2,
+    .text_box3,
+    .text_box4,
+    .text_box5 {
+      width: 400px;
+      height: 200px;
+      margin-left: 140px;
+    }
+  }
