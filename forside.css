@@ -1,0 +1,35 @@
+.hover-button,
+.hover-button1 {
+  padding: 20px; /* Adjust padding as needed */
+  font-size: 16px;
+  background-color: #ffe8eb;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  width: 200px;
+  box-shadow: 0 0 20px rgba(224, 114, 114, 0.6);
+  border-color: #101c60;
+  margin-top: 40px;
+  margin-left: 130px;
+}
+
+/* Button style on hover */
+.hover-button:hover,
+.hover-button1:hover {
+  transform: scale(1.2); /* Increase the scale factor for a larger size */
+  background-color: #ffe8eb;
+  box-shadow: 0 0 40px #d78590;
+  border: none;
+}
+
+@media (min-width: 800px) {
+  .but {
+    margin-left: 108px;
+  }
+  .hover-button,
+  .hover-button1 {
+    width: 400px;
+    height: 200px;
+  }
+}
