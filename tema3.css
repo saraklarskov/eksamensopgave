@@ -1,0 +1,149 @@
+.moo img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(153, 73, 73, 0.6);
+  }
+  
+  .lis {
+    width: 400px;
+    padding: 10px;
+    background-color: #ffe8eb;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(153, 73, 73, 0.6);
+    margin-left: 10px;
+  }
+  
+  .lis li {
+    margin-bottom: 15px;
+  }
+  
+  .lis h2 {
+    margin-left: 36px;
+  }
+  
+  p {
+    margin-bottom: 40px;
+  }
+  
+  .knap_1 {
+    background-image: url(billeder/knap_ux.png);
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(153, 73, 73, 0.6);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 120%;
+    text-align: center;
+  }
+  
+  .knap_2 {
+    background-image: url(billeder/knap_ux1.png);
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(153, 73, 73, 0.6);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 120%;
+    text-align: center;
+  }
+  
+  .knap_3 {
+    background-image: url(billeder/knap_ux2.png);
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(153, 73, 73, 0.6);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 120%;
+    text-align: center;
+  }
+  
+  .knap_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 40px;
+    margin-left: -5px;
+    gap: 10px;
+  }
+  
+  .kna h2,
+  .kn h2,
+  .knap h2 {
+    margin-top: 50px;
+  }
+  
+  .tcmm img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(153, 73, 73, 0.6);
+  }
+  
+  @media (min-width: 800px) {
+    .beskriv_ux {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-left: 80px;
+    }
+    .ux_grid {
+      text-align: left;
+      margin-top: 20px;
+      margin-right: 30px;
+    }
+  
+    .moo,
+    .obs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 40px;
+    }
+  
+    .moo img {
+      order: -1;
+    }
+  
+    .site {
+      margin-left: 30px;
+      text-align: right;
+    }
+  
+    .lis {
+      width: 600px;
+      margin-left: 30px;
+      padding: 10px;
+    }
+  
+    .knap_grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .knap_1,
+    .knap_2,
+    .knap_3 {
+      width: 400px;
+      height: 200px;
+      margin-left: 30px;
+    }
+  
+    .knap_1 h2,
+    .knap_2 h2,
+    .knap_3 h2 {
+      margin-top: 80px;
+    }
+  
+    .tcmm {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .tcmm img {
+      order: -1;
+      margin-left: 30px;
+    }
+  
+    .tcmm p {
+      margin-left: 50px;
+      margin-right: 35px;
+      text-align: right;
+    }
+  }
